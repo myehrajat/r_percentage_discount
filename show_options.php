@@ -13,7 +13,7 @@ function RentIt_Percentage_Discount_show_options() {
 			'label' => esc_html__( 'Month Percentage Discount', "rentit" ),
 			'data_type' => 'text',
 			'desc_tip' => 'true',
-			'description' => esc_html__( 'Month percentage discount used to make the price value lower until one month full', 'rentit' )
+			'description' => esc_html__( 'Month percentage discount used to make the price value lower until one month full.', 'rentit' )
 		)
 	);
 }
